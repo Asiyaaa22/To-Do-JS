@@ -221,19 +221,22 @@ margin-top: 0.8em;
   width: 50em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3em;
+  margin-top: 5em;
   margin-bottom: 2em;
 }
 
-.fa-caret-left{
+.fa-circle-left{
   color:rgb(141, 141, 60); 
-  margin-right: 0.2em;
+  margin-right: 0.5em;
   font-size: 2em;
+  float: right;
 }
 
 #back-heading{
   display: inline; 
   vertical-align: middle;
+  float: right;
+ 
 }
 
 .card-chosen{
@@ -247,3 +250,6 @@ margin-top: 0.8em;
   justify-content: center;
 
 } 
+#top-div{
+  background-color: rgb(80, 85, 95);
+}

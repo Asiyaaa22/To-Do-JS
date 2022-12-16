@@ -49,7 +49,7 @@ paraClick = ` <header>
   </div>
   <div id="awesome-btn">
     <p id="para">Add item</p>
-    <i class="fa-solid fa-dice-d20"></i>
+    <i class="fa-solid fa-circle-plus"> </i></a>
   </div>
 </div>
 </header>
@@ -58,7 +58,7 @@ paraClick = ` <header>
 // add pop - up
   document.querySelector('#add-btn').addEventListener('click', () => {
     valueInput = document.querySelector('#todo-input').value
-
+console.log("hello");
 
     document.querySelector('.todo-1').innerHTML += todo;
     let arr = document.querySelectorAll('.para-head');
