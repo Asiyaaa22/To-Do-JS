@@ -64,7 +64,7 @@
   margin-top: 20%; 
   transform: translate(-50%, -25%);
   position: absolute;
-  /* z-index: 1; */
+  z-index: 1;
  
 }
 
@@ -144,20 +144,20 @@ color: aliceblue;
 cursor: pointer;
 }
 
-.bi-magic{
-color: #197dac;
+.fa-trash{
+color: #63bde7;
 font-size: 1.5em;
 vertical-align: middle;
 cursor: pointer;
-transition: box-shadow 0.5s;
+/* transition: box-shadow 0.5s; */
 }
 
 .fa-brands:hover{
 box-shadow: 4px 4px 8px rgba(253, 253, 253, 0.4);
 }
 
-.bi-trash{
-color: #197dac;
+.fa-plus{
+color: #88e763;
 font-size: 1.5em;
 vertical-align: middle;
 }

@@ -35,10 +35,10 @@ todo = ` <div class="list-pop-up-div">
           
       </div>
 <div id="flex-awesome">
-  // <i class="fa-brands fa-teamspeak"></i>
-  // <i class="fa-solid fa-dragon"></i>
-  <button type="button" class="btn btn-primary"> <span class="bi bi-magic"></span></button>
-  <button type="button" class="btn btn-light"><span class="bi bi-trash"></span></button> 
+  
+  <i class="fa-solid fa-plus"></i>
+  <i class="fa-solid fa-trash"></i>
+ 
 </div>
 </div>`
 
@@ -154,7 +154,7 @@ console.log("hello");
 
 
     // add task
-    let addBtn = document.querySelectorAll('.btn-primary');
+    let addBtn = document.querySelectorAll('.fa-plus');
     let addTask = document.querySelector('#dialog-box');
     let addItemDiv = document.querySelectorAll('.markdone')
 
@@ -194,7 +194,7 @@ console.log("hello");
 
 
   // removing container task
-    let deleteBtn = document.querySelectorAll('.btn-light');
+    let deleteBtn = document.querySelectorAll('.fa-trash');
     let remove = document.querySelectorAll('.list-pop-up-div');
 
    for(let j = 0; j<arr.length; j++) {
